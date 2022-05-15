@@ -20,6 +20,7 @@ void main()
 }
 ```
 ### 참조에 의한 호출(Call by reference)
+참조자를 이용한 call by reference
 
 ```C
 void swap(int &num1, int &num2)
@@ -34,7 +35,9 @@ void main()
     swap(a, b);
     printf("a: %d, b: %d", a, b);
 }
-
+```
+주소 값을 이용한 call by reference
+```C
 void swap(int *num1, int *num2)
 {
     int temp = num1;
