@@ -13,6 +13,11 @@
 
 ### C
 
+#### Array
+
+#### Pointer
+
+
 ### Python
 
 
