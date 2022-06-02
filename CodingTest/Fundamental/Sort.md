@@ -53,3 +53,39 @@ int main(void)
 
 또한 특정 class 변수 혹은 구조체 변수일 경우 다음과 같은 방식으로 특정 변수를 기준으로 정렬이 가능해진다.
 
+### Pair 라이브러리를 통한 정렬 
+
+
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+```cpp
+bool compare(pair<int, int> a, pair<int, int> b) {
+	if (a.first == b.first) {
+		return a.second < b.second;
+	}
+	else {
+		return a.first < b.first;
+	}
+}
+
+void init(vector<pair<int, int>> &v){
+	v.push_back({1, 13});
+	v.push_back({5, 2});
+	v.push_back({7, 14});
+	v.push_back({1, 22});
+	v.push_back({4, 3});
+}
+
+int main(){
+	vector<pair<int, int>>v;
+	init(v);
+	sort(v.begin(), v.end(), compare);
+	for(int i = 0; i < v.size(); ++>)
+    {
+		cout << v[i].first << " " << v[i].second;
+	}
+}
+```
