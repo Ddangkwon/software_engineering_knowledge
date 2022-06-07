@@ -48,7 +48,7 @@ int main(void)
 
     return 0;
 }
-
+compare 함수 위치에는 greater<int>() => 내림차순 정렬, less<int>() => 오름차순 정렬(default)
 ```
 
 또한 특정 class 변수 혹은 구조체 변수일 경우 다음과 같은 방식으로 특정 변수를 기준으로 정렬이 가능해진다.
