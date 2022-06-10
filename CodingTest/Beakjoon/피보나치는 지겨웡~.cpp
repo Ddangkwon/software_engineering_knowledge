@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 int n;
-int arr[1000001] = { 1, 1, 3, };
+int arr[51] = { 1, 1, 3, };
 
 void dp(int * arr)
 {
