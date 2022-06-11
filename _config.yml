@@ -21,12 +21,12 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: ZeroFist's Software Engineering Knowledge Storage # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Software Engineering Knowledge Repo.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  임베디드 ASW 엔지니어의 소소한 지식 저장소입니다.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://zerofist.github.io/software_engineering_knowledge/'
