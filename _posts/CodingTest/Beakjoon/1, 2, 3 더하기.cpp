@@ -1,0 +1,27 @@
+#include <iostream>
+#include <cstdio>
+
+using namespace std;
+int n, T;
+int arr[11] = { 0, 1, 2, 4, };
+
+void dp(int * arr)
+{
+    for(int i = 4; i <= n; i++)
+    {
+        arr[i] = arr[i -1] + arr[i - 2] + arr[i - 3];
+    }
+    cout << arr[n] << '\n';
+}
+
+int main(void)
+{
+    scanf("%d", &T);
+    for(int i = 0; i < T; i++)
+    {
+        scanf("%d", &n);
+        dp(arr);
+    }
+
+    return 0;
+}
